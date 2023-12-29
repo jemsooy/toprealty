@@ -1,0 +1,696 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>TopRealty</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="styles.css" rel="stylesheet">
+        <!-- Add Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+
+        <main>
+            <header>
+                <div class="main-header">
+                    <div class="h-logo">
+                        <img src="images/top-logo.png" alt="logo">
+                    </div>
+                    <div class="h-loc">
+                        <div>
+                            <img src="images/map-icon.jpg" alt="map" width="150">
+                        </div>
+                        <div>
+                            <img src="images/enlist.jpg" alt="enlist" width="150">
+                        </div>
+                    </div>
+                    <div class="h-social">
+                        <div class="social-meds">
+                            <div>
+                                <a href="https://www.facebook.com"> <img src="images/facebook.png" alt=""></a>
+                            </div>
+                            <div>
+                                <a href="https://www.instagram.com"><img src="images/intagram.png" alt=""></a>
+                            </div>
+                            <div>
+                                <a href="https://www.youtube.com"><img src="images/Youtube.png" alt=""></a>
+                            </div>
+                            <div>
+                                <a href="https://www.viber.com"><img src="images/viber.png" alt=""></a>
+                            </div>
+                            <div>
+                                <a href="https://www.whatsapp.com"><img src="images/whatsapp.jpg" alt=""></a>
+                            </div>
+                            <div>
+                                <a href="https://www.wechat.com"><img src="images/wechat.jpg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="currency-cont">
+                            <label class="lbl-cur">SELECT CURRENCY</label>
+                            <select class="cuurency" name="currency" id="">
+                                <option value="">PHP</option>
+                                <option value="">USD</option>
+                                <option value="">CNY</option>
+                                <option value="">RM</option>
+                                <option value="">HKD</option>
+                                <option value="">SGD</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="mobile-header">
+                    <div class="mh-content">
+                        <div class="mobile-logo">
+                            <a href="index.html">
+                                <img src="images/mob-logo.png" width="170" alt="">
+                            </a>
+
+                        </div>
+                        <div class="mobile-menu" id="menuBtn">
+                            <div class="mobile-menu-btn pull-right">
+                                <span class="fa fa-bars"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sidebar-mob" id="sidebar">
+                        <header class="header clearfix">
+                            <div class="mobile-menu-btn">
+                            <span class="fa fa-close"></span>
+                            <span class="close-btn">close</span>
+                            </div>
+                        </header>
+                        <div class="mob-menu">
+                            <ul class="list-menu">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="index.html">Properties</a></li>
+                            </ul>
+
+                        </div>
+                        <div class="currency-cont text-center">
+                            <label class="lbl-cur">SELECT CURRENCY</label>
+                            <select class="cuurency" name="currency" id="">
+                                <option value="">PHP</option>
+                                <option value="">USD</option>
+                                <option value="">CNY</option>
+                                <option value="">RM</option>
+                                <option value="">HKD</option>
+                                <option value="">SGD</option>
+                            </select>
+                        </div>
+                        <div class="social-meds mt-4 justify-content-center">
+                            <div>
+                                <a href="https://www.facebook.com"> <img src="images/facebook.png" alt=""></a>
+                            </div>
+                            <div>
+                                <a href="https://www.instagram.com"><img src="images/intagram.png" alt=""></a>
+                            </div>
+                            <div>
+                                <a href="https://www.youtube.com"><img src="images/Youtube.png" alt=""></a>
+                            </div>
+                            <div>
+                                <a href="https://www.viber.com"><img src="images/viber.png" alt=""></a>
+                            </div>
+                            <div>
+                                <a href="https://www.whatsapp.com"><img src="images/whatsapp.jpg" alt=""></a>
+                            </div>
+                            <div>
+                                <a href="https://www.wechat.com"><img src="images/wechat.jpg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="header-menu" id="header-menu">
+                <div class="header-content">
+                    <nav class="header-nav">
+                        <ul class="menu">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="index.html">Properties</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div id="carouselExampleControls1" class="carousel slide" data-ride="carousel" data-interval="3000">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" style="height: 652px;">
+                        <img class="d-block w-100" src="images/image1.jpg" alt="First slide">
+                    </div>
+                    <div class="carousel-item" style="height: 652px;">
+                        <img class="d-block w-100" src="images/image2.jpg" alt="Second slide">
+                    </div>
+                    <div class="carousel-item" style="height: 652px;">
+                        <img class="d-block w-100" src="images/image3.png" alt="Third slide">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls1" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls1" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div class="general-search-layout active" id="mainsearch">
+                <div class="general-search-container">
+                    <form action="#" method="get" class="form-search">
+                        <h3><span>Quick</span> search</h3>
+                        <div class="search-all">
+                            <input type="text" placeholder="Keywords..." name="all">
+                        </div>
+                        <span class="sep">OR</span>
+                        <div class="general-search-wrapper">
+                            <select name="ctg_options" class="f-input">
+                                <option selected="" disabled="disabled">Looking to</option>
+                                <option value="56">Buy</option>
+                                <option value="57">Rent</option>
+                            </select>
+                            <select name="ctg_types" class="f-input" >
+                                <option selected="" disabled="disabled">Property Type</option> 
+                                <option value="58">Condo / Apartment</option>
+                                <option value="59">House</option>
+                                <option value="60">Lot</option>
+                                <option value="61">Commercial</option>
+                                <option value="62">Office</option>
+                                <option value="176">Building</option>
+                                <option value="177">Hotel</option>
+                                <option value="178">Beach</option>
+                                <option value="219">Townhouse</option>
+                                <option value="231">Warehouse</option>
+                            </select>
+                            <select name="ctg_city" class="f-input" >
+                                <option selected="" disabled="disabled">City</option>
+                                <option value="224">Caloocan City</option>
+                                <option value="220">Antipolo City</option>
+                                <option value="213">Aklan</option>
+                                <option value="212">Valenzuela City</option>
+                                <option value="211">Zambales</option>
+                                <option value="210">Tarlac</option>
+                                <option value="207">Bataan</option>
+                                <option value="155">Taguig City</option>
+                                <option value="37"> -- Bonifacio Global City</option>
+                                <option value="147"> -- Mckinley Hill Fort Bonifacio</option>
+                                <option value="148"> -- Mckinley West Fort Bonifacio</option>
+                                <option value="149"> -- Afpovai Fort Bonifacio</option>
+                                <option value="158"> -- Arca South</option>
+                                <option value="163"> -- Acacia Estates</option>
+                                <option value="156">Makati City</option>
+                                <option value="159"> -- Rockwell Center</option>
+                                <option value="160"> -- Makati Business District</option>
+                                <option value="150">Other Cities</option>
+                                <option value="230"> -- Cebu</option>
+                                <option value="223"> -- Malabon</option>
+                                <option value="215"> -- La Union</option>
+                                <option value="208"> -- Bataan</option>
+                                <option value="204"> -- Pampanga</option>
+                            </select>
+                            <select name="ctg_bed" class="f-input" >
+                                <option selected="" disabled="disabled">Bedrooms</option>
+                                <option value="18">Studio</option>
+                                <option value="19">1 Bedroom</option>
+                                <option value="20">2 Bedroom</option>
+                                <option value="21">3 Bedroom</option>
+                                <option value="22">4 Bedroom</option>
+                                <option value="108">5 Bedroom</option>
+                                <option value="109">6 Bedroom</option>
+                                <option value="111">7 Bedroom</option>
+                                <option value="153">8 Bedroom</option>
+                                <option value="154">9 Bedroom</option>
+                                <option value="166">21 Bedroom</option>
+                                <option value="169">11 Bedroom</option>
+                                <option value="172">10 Bedroom</option>
+                                <option value="209">15 Bedroom</option>
+                                <option value="214">12 Bedroom</option>
+                                <option value="216">13 Bedroom Up</option>
+                            </select>
+                            <button type="submit" name="s" class="btn-submit">
+                                <span class="wr-btn">
+                                    <i class="fa fa-search icon-search" aria-hidden="true"></i> SEARCH
+                                </span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <section class="sect-msg">
+                <div class="top-message">
+                    <div class="msg-title">
+                        <h2>Welcome to Top Realty</h2>
+                    </div>
+                    <div class="msg-cont">
+                        Top Realty has the most efficient services in buying, selling and leasing properties. With highly experienced and passionate group of real estate brokers, you get the best property investment options available in the current Philippine real estate market.<br><br>
+                        Looking for best RESULTS? We share the same goal, we are Your Partner in Real Estate.
+                    </div>
+                </div>
+            </section>
+
+            <section class="hp-link-layout">
+                <div class="hp-link">
+                    <a class="hp-link-cont" href="#">
+                        <div class="link-logo">
+                            <img src="images/1-icon2.png" alt="">
+                        </div>
+                        <div class="link-text">
+                            <h3> <span>BUY</span> A PROPERTY </h3>
+                        </div>
+                    </a>
+                    <a class="hp-link-cont" href="#">
+                        <div class="link-logo">
+                            <img src="images/tag.png" alt="">
+                        </div>
+                        <div class="link-text">
+                            <h3> <span>ENLIST</span> MY PROPERTY </h3>
+                        </div>
+                    </a>
+                    <a class="hp-link-cont" href="#">
+                        <div class="link-logo">
+                            <img src="images/for-rent.png" alt="">
+                        </div>
+                        <div class="link-text">
+                            <h3> <span>RENT</span> A PROPERTY </h3>
+                        </div>
+                    </a>
+                    
+                </div>
+            </section>
+
+            <section class="for-sale">
+                <div class="fs-cont">
+                    <div class="fs-div">
+                        <div  class="forsale">
+                            <a>
+                                <img src="images/real1.jpg" alt="" class="fs-img">
+                                <div class="caption"> 
+                                    <img src="images/houses.png" class="img-responsive" alt="Top Realty"> 
+                                    <h3> <span>House and Lot </span>for Sale </h3> 
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div  class="fs-div">
+                        <div  class="forsale">
+                            <a>
+                                <img src="images/real2.jpg" alt="" class="fs-img">
+                                <div class="caption"> <img src="images/houses.png" class="img-responsive" alt="Top Realty"> 
+                                    <h3> <span>Condo Units </span> for Sale </h3> 
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div  class="fs-div">
+                        <div  class="forsale">
+                            <a>
+                                <img src="images/real3.jpg" alt="" class="fs-img">
+                                <div class="caption"> <img src="images/barrier.png" class="img-responsive" alt="Top Realty">
+                                    <h3> <span>Lots</span> for Sale </h3> 
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="carousel-cont">
+                <div class="slide-title">
+                    <h2>FEATURED <strong>READY FOR OCCUPANCY</strong></h2>
+                </div>
+                <div id="carouselExampleControls2" class="carousel-card carousel slide" data-ride="carousel">
+                    <div class="carousel-inner flex-disp">
+                        <div class="carousel-item active">
+                            <div class="cards-wrapper">
+                            <div class="card">
+                                <a><img src="images/img1.jpg" class="card-img-top" alt="..."></a>
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-secondary">View More</a>
+                            </div>
+                            </div>
+                            <div class="card d-none d-md-block">
+                                <a><img src="images/img4.jpg" class="card-img-top" alt="..."></a>
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-secondary">View More</a>
+                            </div>
+                            </div>
+                            <div class="card d-none d-md-block">
+                                <a><img src="images/img4.jpg" class="card-img-top" alt="..."></a>
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-secondary">View More</a>
+                            </div>
+                            </div>
+                            <div class="card d-none d-md-block">
+                                <a><img src="images/img2.jpg" class="card-img-top" alt="..."></a>
+                                <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-secondary">View More</a>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="cards-wrapper">
+                            <div class="card">
+                                <a><img src="images/img1.jpg" class="card-img-top" alt="..."></a>
+                                <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-secondary">View More</a>
+                                </div>
+                            </div>
+                            <div class="card d-none d-md-block">
+                                <a><img src="images/img2.jpg" class="card-img-top" alt="..."></a>
+                                <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-secondary">View More</a>
+                                </div>
+                            </div>
+                            <div class="card d-none d-md-block">
+                                <a><img src="images/img4.jpg" class="card-img-top" alt="..."></a>
+                                <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-secondary">View More</a>
+                                </div>
+                            </div>
+                            <div class="card d-none d-md-block">
+                                <a><img src="images/img4.jpg" class="card-img-top" alt="..."></a>
+                                <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-secondary">View More</a>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="cards-wrapper">
+                            <div class="card">
+                                <a><img src="images/img1.jpg" class="card-img-top" alt="..."></a>
+                                <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-secondary">View More</a>
+                                </div>
+                            </div>
+                            <div class="card d-none d-md-block">
+                                <a><img src="images/img2.jpg" class="card-img-top" alt="..."></a>
+                                <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-secondary">View More</a>
+                                </div>
+                            </div>
+                            <div class="card d-none d-md-block">
+                                <a><img src="images/img4.jpg" class="card-img-top" alt="..."></a>
+                                <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-secondary">View More</a>
+                                </div>
+                            </div>
+                            <div class="card d-none d-md-block">
+                                <a><img src="images/img4.jpg" class="card-img-top" alt="..."></a>
+                                <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-secondary">View More</a>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <span class="arrow left" href="#carouselExampleControls2" style="display: block;" role="button" data-slide="prev"></span>
+                    <span class="arrow right" href="#carouselExampleControls2" role="button" data-slide="next" style="display: block;"></span>
+                </div>
+            </section>
+            <section class="carousel-cont">
+                <div class="slide-title">
+                    <h2>FEATURED <strong>PRE SELLING</strong></h2>
+                </div>
+                <div id="carouselExampleControls" class="carousel-card carousel slide" data-ride="carousel">
+                    <div class="carousel-inner flex-disp">
+                        <div class="carousel-item active">
+                            <div class="cards-wrapper">
+                            <div class="card">
+                                <a><img src="images/img4.jpg" class="card-img-top" alt="..."></a>
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-secondary">View More</a>
+                            </div>
+                            </div>
+                            <div class="card d-none d-md-block">
+                                <a><img src="images/img2.jpg" class="card-img-top" alt="..."></a>
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-secondary">View More</a>
+                            </div>
+                            </div>
+                            <div class="card d-none d-md-block">
+                                <a><img src="images/img1.jpg" class="card-img-top" alt="..."></a>
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-secondary">View More</a>
+                            </div>
+                            </div>
+                            <div class="card d-none d-md-block">
+                                <a><img src="images/img4.jpg" class="card-img-top" alt="..."></a>
+                                <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-secondary">View More</a>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="cards-wrapper">
+                            <div class="card">
+                                <a><img src="images/img4.jpg" class="card-img-top" alt="..."></a>
+                                <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-secondary">View More</a>
+                                </div>
+                            </div>
+                            <div class="card d-none d-md-block">
+                                <a><img src="images/img1.jpg" class="card-img-top" alt="..."></a>
+                                <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-secondary">View More</a>
+                                </div>
+                            </div>
+                            <div class="card d-none d-md-block">
+                                <a><img src="images/img2.jpg" class="card-img-top" alt="..."></a>
+                                <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-secondary">View More</a>
+                                </div>
+                            </div>
+                            <div class="card d-none d-md-block">
+                                <a><img src="images/img4.jpg" class="card-img-top" alt="..."></a>
+                                <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-secondary">View More</a>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="cards-wrapper">
+                            <div class="card">
+                                <a><img src="images/img2.jpg" class="card-img-top" alt="..."></a>
+                                <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-secondary">View More</a>
+                                </div>
+                            </div>
+                            <div class="card d-none d-md-block">
+                                <a><img src="images/img4.jpg" class="card-img-top" alt="..."></a>
+                                <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-secondary">View More</a>
+                                </div>
+                            </div>
+                            <div class="card d-none d-md-block">
+                                <a><img src="images/img4.jpg" class="card-img-top" alt="..."></a>
+                                <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-secondary">View More</a>
+                                </div>
+                            </div>
+                            <div class="card d-none d-md-block">
+                                <a><img src="images/img1.jpg" class="card-img-top" alt="..."></a>
+                                <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-secondary">View More</a>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <span class="arrow left" href="#carouselExampleControls" style="display: block;" role="button" data-slide="prev"></span>
+                    <span class="arrow right" href="#carouselExampleControls" role="button" data-slide="next" style="display: block;"></span>
+                </div>
+            </section>
+            <section class="carousel-cont">
+                <div class="slide-title">
+                    <h2><strong>PROPERTY LISTING</strong></h2>
+                </div>
+                <div class="prop-listing" id="carouselExampleControls3">
+                    <div class="grid-list">
+                            <div class="card">
+                                <a><img src="images/img4.jpg" class="card-img-top" alt="..."></a>
+                                <div class="card-body">
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <a href="#" class="btn btn-secondary">View More</a>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <a><img src="images/img4.jpg" class="card-img-top" alt="..."></a>
+                                <div class="card-body">
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <a href="#" class="btn btn-secondary">View More</a>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <a><img src="images/img2.jpg" class="card-img-top" alt="..."></a>
+                                <div class="card-body">
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <a href="#" class="btn btn-secondary">View More</a>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <a><img src="images/img1.jpg" class="card-img-top" alt="..."></a>
+                                <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-secondary">View More</a>    
+                            </div>
+                            </div>
+                            <div class="card">
+                                <a><img src="images/img4.jpg" class="card-img-top" alt="..."></a>
+                                <div class="card-body">
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <a href="#" class="btn btn-secondary">View More</a>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <a><img src="images/img2.jpg" class="card-img-top" alt="..."></a>
+                                <div class="card-body">
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <a href="#" class="btn btn-secondary">View More</a>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <a><img src="images/img4.jpg" class="card-img-top" alt="..."></a>
+                                <div class="card-body">
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <a href="#" class="btn btn-secondary">View More</a>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <a><img src="images/img1.jpg" class="card-img-top" alt="..."></a>
+                                <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-secondary">View More</a>    
+                            </div>
+                            </div>
+                            <div class="card">
+                                <a><img src="images/img4.jpg" class="card-img-top" alt="..."></a>
+                                <div class="card-body">
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <a href="#" class="btn btn-secondary">View More</a>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <a><img src="images/img2.jpg" class="card-img-top" alt="..."></a>
+                                <div class="card-body">
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <a href="#" class="btn btn-secondary">View More</a>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <a><img src="images/img4.jpg" class="card-img-top" alt="..."></a>
+                                <div class="card-body">
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <a href="#" class="btn btn-secondary">View More</a>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <a><img src="images/img4.jpg" class="card-img-top" alt="..."></a>
+                                <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-secondary">View More</a>    
+                                </div>
+                            </div>
+                    </div>
+
+                </div>
+                <div class="slide-title">
+                    <a href="#" class="btn btn-secondary btn-browse">Browse More</a>
+                </div>
+
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="row row-size">
+                    <div class="col-xs-12 col-sm-12 column-middle">
+                        <div class="copyright sanew">
+                            <p  style="text-align: center;">Copyright 2022. <span>Top Realty.</span> All Rights Reserved.<br>
+                            Unit 2218, 22nd Floor, High Street Corporate Plaza Tower 1, 26th St. Corner 9th Ave., Taguig, 1634 Metro Manila</p>
+                            <p style="text-align: center;"><a href="https://toprealty.com.ph/privacy-policy/">Privacy Policy</a> | 
+                                <a href="https://toprealty.com.ph/terms-and-conditions//">Terms &amp; Conditions</a>
+                            </p>
+                        </div> 
+                    </div>
+                    
+                </div>
+            </div>
+        </footer>
+        
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                var myDiv = document.getElementById("header-menu");
+                var divOffset = myDiv.offsetTop;
+
+                function handleScroll() {
+                    if (window.pageYOffset > divOffset) {
+                        myDiv.classList.add("div-fixed");
+                    } else {
+                        myDiv.classList.remove("div-fixed");
+                    }
+                }
+
+                window.addEventListener("scroll", handleScroll);
+            });
+        </script>
+    </body>
+
+    <script>
+        document.querySelector('.mobile-menu-btn').addEventListener('click', function () {
+            var sidebar = document.getElementById('sidebar');
+            if (sidebar.style.width === '98%') {
+                sidebar.style.width = '0';
+                this.classList.remove('active');
+            } else {
+                sidebar.style.width = '98%';
+                this.classList.add('active');
+            }
+        });
+
+        document.querySelector('.close-btn').addEventListener('click', function () {
+            var sidebar = document.getElementById('sidebar');
+            sidebar.style.width = '0';
+            document.querySelector('.mobile-menu-btn').classList.remove('active');
+        });
+
+        document.addEventListener('click', function (event) {
+            var sidebar = document.getElementById('sidebar');
+            if (!event.target.closest('.sidebar') && !event.target.closest('.mobile-menu-btn')) {
+                sidebar.style.width = '0';
+                document.querySelector('.mobile-menu-btn').classList.remove('active');
+            }
+        });
+
+
+    </script>
+</html>
